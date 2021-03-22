@@ -63,6 +63,7 @@ function Search() {
             setErrorAlert(true);
         } else {
             setRecentSearchData([search, ...recentSearchData])  
+            setErrorAlert(false);
         }
     }
 
