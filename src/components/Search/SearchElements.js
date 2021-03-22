@@ -53,6 +53,7 @@ export const SearchBar = styled.div`
 `
 
 export const Button = styled.a`
+    text-align: center;
     margin: auto;
     margin-left: 12px;
     padding: 12px 24px;
