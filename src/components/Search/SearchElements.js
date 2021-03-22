@@ -5,9 +5,24 @@ export const SearchContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
     color: #2d2d2d;
+`
+
+export const AlertContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff0ef;
+`
+
+export const Alert = styled.p`
+    font-size: 12px;
+    margin: 10px;
 `
 
 export const SearchBarsContainer = styled.div`

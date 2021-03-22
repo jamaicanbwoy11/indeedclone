@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useContext } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
 import { 
     SearchContainer,
+    AlertContainer,
+    Alert,
     SearchBarsContainer,
     SearchBar,
     Button,
@@ -17,6 +20,7 @@ import { WindowResizeProvider } from '../../contexts/WindowResizeContext';
 import { RecentSearchData } from '../../contexts/RecentSearchDataContext';
 
 function Search() {
+    const [errorAlert, setErrorAlert] = useState(false);
     const [whatInputFocus, setWhatInputFocus] = useState(false);
     const [locationInputFocus, setLocationInputFocus] = useState(false);
     const [search, setSearch] = useState({what: '', where: ''});
@@ -56,6 +60,7 @@ function Search() {
         // Stop user from searching if any of the search bars are empty
         if (search.what === '' && search.where === '') {
             e.preventDefault();
+            setErrorAlert(true);
         } else {
             setRecentSearchData([search, ...recentSearchData])  
         }
@@ -63,6 +68,11 @@ function Search() {
 
     return (
         <SearchContainer>
+            {errorAlert && 
+                <AlertContainer>
+                    <ErrorOutlineIcon /> 
+                    <Alert>Enter a job title or location to start a search</Alert>
+                </AlertContainer>}
             <SearchBarsContainer>
                 <SearchTitleAbove>What</SearchTitleAbove>
                 <SearchBar 
