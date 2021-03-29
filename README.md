@@ -9,7 +9,7 @@ The Indeed clone is a website that is created to look like a replica of the job 
 * React (Hooks)
 * Styled-Components
 
-## Starting the Server
+## Starting the Client
 1. Open a terminal and navigate to the root folder.
 2. Install the dependencies using `npm install`.
 3. Start the client with `npm start`.
