@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/indeedclone/static/css/main.91e5d62d.chunk.css",
+    "main.js": "/indeedclone/static/js/main.c5a5c1be.chunk.js",
+    "main.js.map": "/indeedclone/static/js/main.c5a5c1be.chunk.js.map",
+    "runtime-main.js": "/indeedclone/static/js/runtime-main.38528163.js",
+    "runtime-main.js.map": "/indeedclone/static/js/runtime-main.38528163.js.map",
+    "static/js/2.88a28279.chunk.js": "/indeedclone/static/js/2.88a28279.chunk.js",
+    "static/js/2.88a28279.chunk.js.map": "/indeedclone/static/js/2.88a28279.chunk.js.map",
+    "static/js/3.4e50e7bf.chunk.js": "/indeedclone/static/js/3.4e50e7bf.chunk.js",
+    "static/js/3.4e50e7bf.chunk.js.map": "/indeedclone/static/js/3.4e50e7bf.chunk.js.map",
+    "index.html": "/indeedclone/index.html",
+    "static/css/main.91e5d62d.chunk.css.map": "/indeedclone/static/css/main.91e5d62d.chunk.css.map",
+    "static/js/2.88a28279.chunk.js.LICENSE.txt": "/indeedclone/static/js/2.88a28279.chunk.js.LICENSE.txt",
+    "static/media/indeed-logo.b588bbd3.svg": "/indeedclone/static/media/indeed-logo.b588bbd3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38528163.js",
+    "static/js/2.88a28279.chunk.js",
+    "static/css/main.91e5d62d.chunk.css",
+    "static/js/main.c5a5c1be.chunk.js"
+  ]
+}
